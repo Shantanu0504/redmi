@@ -15,6 +15,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/sakha.war /home/shantanu/Downloads/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/redmi.war /home/shantanu/Downloads/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
